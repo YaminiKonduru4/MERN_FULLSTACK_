@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+    <style>
+      td {
+        width: 200px;
+      }
+      button {
+        background-image: linear-gradient(to right, #fffdf4, #ffedb3);
+        border-radius: 3px;
+      }
+      select {
+         margin-right: 5px;
+      }
+      button:hover{
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><label>Full Name:</label></td>
+        <td><input type="text" placeholder="Enter name" ></td>
+      </tr>
+      <tr>
+        <td><label>Username: </label></td>
+        <td><input type="text" placeholder="Enter username" ></td>
+      </tr>
+      <tr>
+        <td><label>Password: </label></td>
+        <td><input type="password" id="password" placeholder="Enter password" ></td>
+      </tr>
+      <tr>
+        <td><label>Re Password:</label></td>
+        <td><input type="password" id="repassword" name="repassword" placeholder="Enter repassword" ></td>
+      </tr>
+      <tr>
+        <td><label>Address: </label></td>
+        <td><input type="text" placeholder="Enter address" ></td>
+      </tr>
+      <tr>
+        <td><label>Age:</label></td>
+        <td><input type="number" placeholder="Enter age" ></td>
+      </tr>
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+          <select>
+            <option>click to choose</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><button type="submit">Save</button></td>
+      </tr>
+    </table>
+  </body>
+</html>
